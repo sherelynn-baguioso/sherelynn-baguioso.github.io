@@ -57,6 +57,12 @@ nav a {
   }
 }
 
+@media all and (max-width: 650px) {
+  .second-nav li {
+    padding: .1rem .1rem .1rem .5rem;
+  }
+}
+
 #welcome {
   height: 37.5rem;
   width: 100%;
