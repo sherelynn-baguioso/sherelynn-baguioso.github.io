@@ -36,9 +36,24 @@ nav a {
   color: #46443c;
 }
 
-@media all and (max-width: 500px) {
-  nav a {
-    display: none;
+@media all and (max-width: 497px) {
+  .header {
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  .first-nav li {
+    font-size: 1rem;
+    padding-left: .1rem;
+    padding-right: 0;
+    letter-spacing: .1rem;
+  }
+}
+
+@media all and (max-width: 356px) {
+  .first-nav li {
+    padding-top: .1rem;
+    padding-bottom: .1rem;
   }
 }
 
@@ -203,6 +218,5 @@ main {
   font-size: 1.5rem;
   color: #f7f7f7;
 }
-
 
 
