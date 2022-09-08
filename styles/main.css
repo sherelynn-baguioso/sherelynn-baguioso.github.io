@@ -6,7 +6,6 @@ html {
 body {
   background-color: #dc9e0c;
   font-family: 'Nunito', sans-serif;
-  margin: 0;
 }
 
 a {
@@ -91,6 +90,7 @@ nav a {
 
 #welcome h1 {
   position: absolute;
+  width: 25rem;
   top: 7rem;
   left: 10rem;
   color: #ffebcf;
