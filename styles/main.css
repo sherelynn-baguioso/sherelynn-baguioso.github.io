@@ -6,6 +6,7 @@ html {
 body {
   background-color: #dc9e0c;
   font-family: 'Nunito', sans-serif;
+  margin: 0;
 }
 
 a {
@@ -19,7 +20,7 @@ a {
   justify-content: space-between;
 }
 
-.header-items img {
+.header-items img, footer img {
   border-radius: 1.5rem;
 }
 
@@ -38,7 +39,7 @@ nav a {
 
 @media all and (max-width: 497px) {
   .header {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
   }
   
@@ -47,6 +48,10 @@ nav a {
     padding-left: .1rem;
     padding-right: 0;
     letter-spacing: .1rem;
+  }
+
+  .third-nav li {
+    display: block;
   }
 }
 
@@ -60,6 +65,18 @@ nav a {
 @media all and (max-width: 650px) {
   .second-nav li {
     padding: .1rem .1rem .1rem .5rem;
+  }
+}
+
+@media all and (max-width: 628px) {
+  .header ul {
+    padding-left: .2rem;
+    margin-top: 0;
+  }
+  .third-nav li {
+    padding: 0.1rem 0.3rem 0.1rem 0.1rem;
+    letter-spacing: .1rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -182,6 +199,10 @@ p {
   }
 }
 
+div h1 {
+  width: 100%;
+}
+
 .title h1 {
   background-color: #bcb6a8;
   text-align: center;
@@ -192,10 +213,6 @@ p {
 }
 
 @media all and (max-width: 680px) {
-  .title h1 {
-    position: fixed;
-    width: 100%;
-  }
   main {
     margin-top: 6rem;
   }
@@ -225,4 +242,64 @@ main {
   color: #f7f7f7;
 }
 
+/* hmtl-css */
 
+.grid-a {
+  display: grid;
+  width: 80%;
+  min-width: 20rem;
+  height: 162.5rem;
+  grid-template-rows: repeat(20, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.gridbox-a p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #463305;
+  letter-spacing: .1rem;
+  line-height: 2.3rem;
+}
+
+.gridbox-b {
+  font-size: 1.5rem;
+  color:#fff4d9;
+  background-color: #5c5c5c;
+  width: 100%;
+  text-align: center;
+}
+
+.gridbox-a img {
+  width: 40rem;
+  height: 9rem;
+  margin-bottom: 1rem;
+}
+
+span {
+  color:#fffefe;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+@media all and (max-width: 768px) {
+  main,
+  div.grid-a,
+  div.gridbox-a,
+  div.gridbox-b, 
+  p.gridbox-a,
+  .gridbox-a img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  footer {
+    display: none;
+  }
+}
