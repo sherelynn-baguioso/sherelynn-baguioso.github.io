@@ -287,6 +287,10 @@ footer {
 
 @media all and (max-width: 768px) {
   main,
+  div.grid,
+  p.grid,
+  div.box-a,
+  .grid a,
   div.grid-a,
   div.gridbox-a,
   div.gridbox-b, 
