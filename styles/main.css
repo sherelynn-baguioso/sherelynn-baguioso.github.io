@@ -311,6 +311,10 @@ footer {
   }
 }
 
+.gridbox-b a {
+  color: #fff4d9;
+}
+
 @media all and (max-width: 426px) {
   div.gridbox-b {
     font-size: 1.3rem;
