@@ -260,10 +260,13 @@ main {
   color: #463305;
   letter-spacing: .1rem;
   line-height: 2.3rem;
+  text-align: justify;
 }
 
 .gridbox-b {
   font-size: 1.5rem;
+  letter-spacing: .1rem;
+  word-spacing: .1rem;
   color:#fff4d9;
   background-color: #5c5c5c;
   width: 100%;
