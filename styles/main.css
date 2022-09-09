@@ -316,12 +316,22 @@ footer {
 }
 
 @media all and (max-width: 426px) {
-  div.gridbox-b {
+  div.gridbox-b,
+  .title h1 {
     font-size: 1.3rem;
   }
 
-  .gridbox-a p {
+  .gridbox-a p,
+  div.box-a p,
+  .box-b p {
     font-size: 1rem;
     line-height: 2rem;
   }
 }
+
+/* core blog posts */
+
+.font p {
+  font-size: 1.5rem;
+}
+
