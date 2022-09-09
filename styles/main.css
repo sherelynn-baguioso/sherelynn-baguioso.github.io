@@ -310,3 +310,14 @@ footer {
     display: none;
   }
 }
+
+@media all and (max-width: 426px) {
+  div.gridbox-b {
+    font-size: 1.3rem;
+  }
+
+  .gridbox-a p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+}
