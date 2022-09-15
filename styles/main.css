@@ -252,6 +252,7 @@ main {
   grid-template-rows: repeat(20, 1fr);
   justify-items: center;
   align-items: center;
+  grid-auto-flow: row;
 }
 
 .gridbox-a p {
@@ -339,4 +340,23 @@ footer {
 
 .emotional-intelligence-blog {
   height: 70rem;
+}
+
+/* JS Fundamentals */
+
+#jsphoto1, 
+#jsphoto2, 
+#jsphoto6,
+#jsphoto7 {
+  height: 17rem;
+}
+
+#jsphoto3, 
+#jsphoto4, 
+#jsphoto5 {
+  height: 24rem;
+}
+
+#jsgrid {
+  height: 380rem;
 }
