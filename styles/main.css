@@ -328,6 +328,10 @@ footer {
     font-size: 1rem;
     line-height: 2rem;
   }
+
+  #neuroplasticity {
+    width: 25.36rem;;
+  }
 }
 
 /* core blog posts */
@@ -359,4 +363,10 @@ footer {
 
 #jsgrid {
   height: 380rem;
+}
+
+/* neuroplasticity */
+
+#neuroplasticity-grid {
+  height: 195rem;
 }
