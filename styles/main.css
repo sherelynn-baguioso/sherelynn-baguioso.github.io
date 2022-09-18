@@ -346,14 +346,14 @@ footer {
   height: 70rem;
 }
 
-/* identity-values-strengths-blog */
+/* identity values strenghts blog */
 
 div#identity-values-grid.grid-a {
   grid-template-rows: repeat(11, 1fr);
   height: 137.5rem;
 }
 
-/* JS Fundamentals */
+/* javascript dom blog */
 
 #jsphoto1, 
 #jsphoto2, 
