@@ -350,6 +350,7 @@ footer {
 
 div#identity-values-grid.grid-a {
   grid-template-rows: repeat(11, 1fr);
+  height: 137.5rem;
 }
 
 /* JS Fundamentals */
