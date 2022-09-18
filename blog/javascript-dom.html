@@ -2,111 +2,177 @@
 
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../styles/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <title>Sherelynn's Blog</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../styles/main.css">
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <title>Sherelynn's Blog</title>
+</head>
 
-  <body>
-    <div class="header">
-      <div class="header-items">
-        <img src="../styles/images/Logo-Sherelynn-1.JPG">
-      </div>
-      <div class="header-items">
-        <nav class="third-nav">
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../blog/core-blog.html">Core</a></li>
-            <li><a href="../blog/technical-blog.html">Tech</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  
-    <div class="title">
-      <div><h1>JavaScript Fundamentals</h1></div>
+<body>
+
+  <div class="header">
+
+    <div class="header-items">
+      <img src="../styles/images/Logo-Sherelynn-1.JPG">
     </div>
 
-    <main>
-      <div id="jsgrid" class="grid-a">
-        <div class="gridbox-b">JAVASCRIPT AND ITS RELATIONSHIP TO HTML AND CSS</div>
-        <div class="gridbox-a">
-          <p>JavaScript is a scripting programing language that allows you to make the webpage dynamic. While we use HTML to structure the site and CSS to style and design it, we use JavaScript to make it more interactive. Let’s compare these three in a theatre or play. We’ve got the scripts and our vision or plan for how the play would turn out and we can compare that with our HTML. The backdrops, staging, and artists in costumes would be our CSS. It’s going to make the play more creative and livelier. Then we can refer to JavaScript as the actual event where the artists come into play, perform their act, and make the show more interactive. JavaScript access the objects in HTML and CSS to make them more responsive to users.</p>
-        </div>
-        <div  class="gridbox-a">
-          <img id="jsphoto1" src="../styles/images/JS-HTML-CSS.png">
-        </div>
-        <div class="gridbox-b">CONTROL FLOW AND LOOPS</div>
-        <div class="gridbox-a">
-          <h2>Control Flow</h2>
-          <p>Control flow is how your computer runs your code in order from the top of the document to the bottom. It starts from the first line and finishes in the last line unless it hits any statements such as loops, functions, or conditionals.</p>
-        </div>
-        <div  class="gridbox-a">
-          <img id="jsphoto2" src="../styles/images/control flow.png">
-        </div>
-        <div class="gridbox-a">
-          <p>Let’s compare control flow with some of the daily activities. The control flow is to start your day, prepare for the morning activities, then head out to work. However, for instance, there are days when you need to drop off your child at daycare. So, you have to go through that first before heading to your workplace. In this case, the conditional is to drop your child at day care during certain days.</p>
-        </div>
-        <div class="gridbox-a">
-          <h2>Loops</h2>
-          <p>Loops are iterations or repetition statements that will keep running until there is nothing to loop over, or if the condition becomes false.</p>
-          <p>An example of loop is a <span>for</span> loop which is a conditional loop. This loop runs based on a condition that is true. The code keeps running as long as the condition stays true.</p>
-        </div>
-        <div class="gridbox-a">
-          <img id="jsphoto3" src="../styles/images/javascript for loop.JPG">
-        </div>
-        <div class="gridbox-a">
-          <p>We can compare loops with giving a bunch of medications to a patient. Let’s say before giving the medications you need to check the patient’s vital signs or blood tests. If the medication meets the criteria, then you proceed with the administration. If not, then you withhold the medications that do not meet the criteria.</p>
-        </div>
-        <div class="gridbox-a">
-          <p>Another example is a <span>for each</span> loop. This loop is used to iterate elements of arrays, which is a collection of similar types of data or objects.  It calls a function for each of the elements in the array. For example, you collect different luxury cars such as Rolls-Royce, Bentley, Jaguar and Mercedes. “Luxury cars” is your array and the different brands are your elements. The <span>for each<span> loop runs through all your elements inside your array.</p>
-        </div>
-        <div class="gridbox-a">
-          <img id="jsphoto4" src="../styles/images/for-each-loop.JPG">
-        </div>
-        <div class="gridbox-b">DOM AND ITS RELATIONSHIP TO HTML AND CSS</div>
-        <div class="gridbox-a">
-          <p>According to W3C, Document Object Model or DOM is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document.</p>
-          <p>The standard model for HTML documents is HTML DOM. DOM is created by the browser when a webpage is loaded and it can be accessed with JavaScript. All HTML elements are defined as objects in the DOM. With the object model, JavaScript can manipulate HTML and CSS to make it dynamic. It can change, add and remove the elements and attributes of HTML. It can also change the CSS styles of the page. It can react to existing HTML events or add new HTML events to the page.</p>
-        </div>
-        <div class="gridbox-a">
-          <img id="jsphoto5" src="../styles/images/DOM.jpg">
-        </div>
-        <div class="gridbox-b">OBJECTS AND ARRAYS</div>
-        <div class="gridbox-a">
-          <H2>Objects</H2>
-          <p>Objects are the things that represent the contents of your document. It could be anything. It could be a person, a car, an item, or anything made up that can be defined by a set of characteristics.  These characteristics are called properties that consist of a key and a value. For instance, we have a person and his name is “John”. Here, our object is the person, our key is the name, and our value is “John”. In JavaScript, we can access the object itself, the key, or the value. If we want to access the single item itself then we can access it through the object.</p>
-        </div>
-        <div class="gridbox-a">
-          <img id="jsphoto6" src="../styles/images/object.png">
-        </div>
-        <div class="gridbox-a">
-          <img src="../styles/images/object-1.JPG">
-        </div>
-        <div class="gridbox-a">
-          <H2>Arrays</H2>
-          <p>As mentioned earlier, arrays are a collection of things. It’s a special form of an object. We use an array if we want to store multiple items (numbers, strings, objects, other arrays) in a single variable. Just like a fridge, we store heaps of food in our fridge and some of the items belong in the same category such as vegetable items. Arrays are also useful when we want an ordered collection where items can be accessed using a numerical index. This means that we can access an element in an array by referring to its index number. Arrays are iterable and we can loop through the items in the arrays and access their value. To make it simple, if we want to store data in an order or sequence then we can use arrays.</p>
-        </div>
-        <div class="gridbox-a">
-          <img id="jsphoto7" src="../styles/images/arrays.png">
-        </div>
-        <div class="gridbox-b">FUNCTIONS</div>
-        <div class="gridbox-a">
-          <p>Functions are the building blocks of JavaScript. They are a block of codes or statements that performs any particular task.  You have to define a function first before it can be called for it to be executed. It is like getting someone to do a procedure. Defining a function is like instructing the person about the procedure. Then calling the function is telling the person to do the procedure and the person will perform the task. But for it to qualify as a function, it should gather some input and return an output in which there must be a relationship between the input and the output.</p>
-        </div>
-        <div  class="gridbox-a">
-          <img src="../styles/images/function.png">
-        </div>
-        <div class="gridbox-a">
-          <p>Function is important because we use them to perform a task multiple times. So, instead of rewriting the same codes, we can reuse that block of codes to perform the task again. That means we can call a function whenever we want without having to declare it again.</p>
-        </div>
-        <div class="gridbox-b"><a href="../index.html"> HOME</a> / <a href="../blog/core-blog.html">CORE  </a> / <a href="../blog/technical-blog.html">TECH</a></div>
-      </div>  
-    </main>
-  </body>
+    <div class="header-items">
+      <nav class="third-nav">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../blog/core-blog.html">Core</a></li>
+          <li><a href="../blog/technical-blog.html">Tech</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </div>
+
+  <div class="title">
+    <div><h1>JavaScript Fundamentals</h1></div>
+  </div>
+
+  <main>
+
+    <div id="jsgrid" class="grid-a">
+
+      <div class="gridbox-b">
+        JAVASCRIPT AND ITS RELATIONSHIP TO HTML AND CSS
+      </div>
+
+      <div class="gridbox-a">
+        <p>
+          JavaScript is a scripting programing language that allows you to make the webpage dynamic. While we use HTML to structure the site and CSS to style and design it, we use JavaScript to make it more interactive. Let’s compare these three in a theatre or play. We’ve got the scripts and our vision or plan for how the play would turn out and we can compare that with our HTML. The backdrops, staging, and artists in costumes would be our CSS. It’s going to make the play more creative and livelier. Then we can refer to JavaScript as the actual event where the artists come into play, perform their act, and make the show more interactive. JavaScript access the objects in HTML and CSS to make them more responsive to users.
+        </p>
+      </div>
+
+      <div  class="gridbox-a">
+        <img id="jsphoto1" src="../styles/images/JS-HTML-CSS.png">
+      </div>
+
+      <div class="gridbox-b">CONTROL FLOW AND LOOPS</div>
+
+      <div class="gridbox-a">
+        <h2>Control Flow</h2>
+        <p>
+          Control flow is how your computer runs your code in order from the top of the document to the bottom. It starts from the first line and finishes in the last line unless it hits any statements such as loops, functions, or conditionals.
+        </p>
+      </div>
+
+      <div  class="gridbox-a">
+        <img id="jsphoto2" src="../styles/images/control flow.png">
+      </div>
+
+      <div class="gridbox-a">
+        <p>
+          Let’s compare control flow with some of the daily activities. The control flow is to start your day, prepare for the morning activities, then head out to work. However, for instance, there are days when you need to drop off your child at daycare. So, you have to go through that first before heading to your workplace. In this case, the conditional is to drop your child at day care during certain days.
+        </p>
+      </div>
+
+      <div class="gridbox-a">
+        <h2>Loops</h2>
+        <p>
+          Loops are iterations or repetition statements that will keep running until there is nothing to loop over, or if the condition becomes false.
+        </p>
+        <p>
+          An example of loop is a <span>for</span> loop which is a conditional loop. This loop runs based on a condition that is true. The code keeps running as long as the condition stays true.
+        </p>
+      </div>
+
+      <div class="gridbox-a">
+        <img id="jsphoto3" src="../styles/images/javascript for loop.JPG">
+      </div>
+
+      <div class="gridbox-a">
+        <p>
+          We can compare loops with giving a bunch of medications to a patient. Let’s say before giving the medications you need to check the patient’s vital signs or blood tests. If the medication meets the criteria, then you proceed with the administration. If not, then you withhold the medications that do not meet the criteria.
+        </p>
+      </div>
+
+      <div class="gridbox-a">
+        <p>
+          Another example is a <span>for each</span> loop. This loop is used to iterate elements of arrays, which is a collection of similar types of data or objects.  It calls a function for each of the elements in the array. For example, you collect different luxury cars such as Rolls-Royce, Bentley, Jaguar and Mercedes. “Luxury cars” is your array and the different brands are your elements. The <span>for each<span> loop runs through all your elements inside your array.
+        </p>
+      </div>
+
+      <div class="gridbox-a">
+        <img id="jsphoto4" src="../styles/images/for-each-loop.JPG">
+      </div>
+
+      <div class="gridbox-b">DOM AND ITS RELATIONSHIP TO HTML AND CSS</div>
+
+      <div class="gridbox-a">
+        <p>
+          According to W3C, Document Object Model or DOM is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document.
+        </p>
+        <p>
+          The standard model for HTML documents is HTML DOM. DOM is created by the browser when a webpage is loaded and it can be accessed with JavaScript. All HTML elements are defined as objects in the DOM. With the object model, JavaScript can manipulate HTML and CSS to make it dynamic. It can change, add and remove the elements and attributes of HTML. It can also change the CSS styles of the page. It can react to existing HTML events or add new HTML events to the page.
+        </p>
+      </div>
+
+      <div class="gridbox-a">
+        <img id="jsphoto5" src="../styles/images/DOM.jpg">
+      </div>
+
+      <div class="gridbox-b">OBJECTS AND ARRAYS</div>
+      <div class="gridbox-a">
+        <H2>Objects</H2>
+        <p>
+          Objects are the things that represent the contents of your document. It could be anything. It could be a person, a car, an item, or anything made up that can be defined by a set of characteristics.  These characteristics are called properties that consist of a key and a value. For instance, we have a person and his name is “John”. Here, our object is the person, our key is the name, and our value is “John”. In JavaScript, we can access the object itself, the key, or the value. If we want to access the single item itself then we can access it through the object.
+        </p>
+      </div>
+
+      <div class="gridbox-a">
+        <img id="jsphoto6" src="../styles/images/object.png">
+      </div>
+
+      <div class="gridbox-a">
+        <img src="../styles/images/object-1.JPG">
+      </div>
+
+      <div class="gridbox-a">
+        <H2>Arrays</H2>
+        <p>
+          As mentioned earlier, arrays are a collection of things. It’s a special form of an object. We use an array if we want to store multiple items (numbers, strings, objects, other arrays) in a single variable. Just like a fridge, we store heaps of food in our fridge and some of the items belong in the same category such as vegetable items. Arrays are also useful when we want an ordered collection where items can be accessed using a numerical index. This means that we can access an element in an array by referring to its index number. Arrays are iterable and we can loop through the items in the arrays and access their value. To make it simple, if we want to store data in an order or sequence then we can use arrays.
+        </p>
+      </div>
+
+      <div class="gridbox-a">
+        <img id="jsphoto7" src="../styles/images/arrays.png">
+      </div>
+
+      <div class="gridbox-b">FUNCTIONS</div>
+
+      <div class="gridbox-a">
+        <p>
+          Functions are the building blocks of JavaScript. They are a block of codes or statements that performs any particular task.  You have to define a function first before it can be called for it to be executed. It is like getting someone to do a procedure. Defining a function is like instructing the person about the procedure. Then calling the function is telling the person to do the procedure and the person will perform the task. But for it to qualify as a function, it should gather some input and return an output in which there must be a relationship between the input and the output.
+        </p>
+      </div>
+
+      <div  class="gridbox-a">
+        <img src="../styles/images/function.png">
+      </div>
+
+      <div class="gridbox-a">
+        <p>
+          Function is important because we use them to perform a task multiple times. So, instead of rewriting the same codes, we can reuse that block of codes to perform the task again. That means we can call a function whenever we want without having to declare it again.
+        </p>
+      </div>
+
+      <div class="gridbox-b">
+        <a href="../index.html"> HOME</a> / 
+        <a href="../blog/core-blog.html">CORE</a> / 
+        <a href="../blog/technical-blog.html">TECH</a>
+      </div>
+
+    </div>  
+    
+  </main>
+
+</body>
   
 </html
