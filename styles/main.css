@@ -372,6 +372,11 @@ div#identity-values-grid.grid-a {
   height: 325rem;
 }
 
+/* learning plan blog */
+div#learning-plan-grid.grid-a {
+  grid-template-rows: repeat(11, 1fr);
+}
+
 /* neuroplasticity */
 
 #neuroplasticity-grid {
