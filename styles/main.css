@@ -355,20 +355,20 @@ div#identity-values-grid.grid-a {
 
 /* javascript dom blog */
 
-#jsphoto1, 
-#jsphoto2, 
-#jsphoto6,
-#jsphoto7 {
+#js-photo1, 
+#js-photo2, 
+#js-photo6,
+#js-photo7 {
   height: 17rem;
 }
 
-#jsphoto3, 
-#jsphoto4, 
-#jsphoto5 {
+#js-photo3, 
+#js-photo4, 
+#js-photo5 {
   height: 24rem;
 }
 
-#jsgrid {
+#js-grid {
   height: 325rem;
 }
 
