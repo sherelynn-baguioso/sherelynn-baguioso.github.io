@@ -370,3 +370,7 @@ footer {
 #neuroplasticity-grid {
   height: 203.125rem;
 }
+
+.resource-links a {
+  color: rgb(12, 12, 12);
+}
