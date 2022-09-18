@@ -228,8 +228,8 @@ main {
   width: 40rem;
   height: 8rem;
   grid-template: 1fr / 1fr 1fr;
-  justify-items: center;
-  align-items: center;
+  justify-items:flex-start;
+  align-items: flex-start;
 }
 
 .box-a p {
