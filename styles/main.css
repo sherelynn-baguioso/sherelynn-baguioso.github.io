@@ -233,11 +233,13 @@ main {
 }
 
 .box-a p {
+  margin: auto;
   font-size: 1.7rem;
   color: #f7f7f7;
 }
 
 .box-b p {
+  margin: auto;
   font-size: 1.5rem;
   color: #f7f7f7;
 }
