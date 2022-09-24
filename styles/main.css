@@ -137,7 +137,7 @@ nav a {
 p {
   margin-top: 3rem;
   font-size: 2rem;
-  color: #195515;
+  color: #4e2600;
   font-weight: 800;
   letter-spacing: .2rem;
   word-spacing: .2rem;
@@ -172,11 +172,13 @@ p {
   font-size: 2rem;
   list-style: none;
   text-align: center;
+  color: #ffebcf;
 }
 
 .links-items a {
   text-decoration: none;
   color: #4e2600;
+  text-align: center;
 }
 
 @media all and (min-width: 1920px) {
@@ -221,25 +223,6 @@ div h1 {
 main {
   display: grid;
   justify-items: center;
-}
-
-.grid {
-  display: grid;
-  width: 40rem;
-  height: 8rem;
-  grid-template: 1fr / 1fr 1fr;
-  justify-items: center;
-  align-items: center;
-}
-
-.box-a p {
-  font-size: 1.7rem;
-  color: #f7f7f7;
-}
-
-.box-b p {
-  font-size: 1.5rem;
-  color: #f7f7f7;
 }
 
 /* hmtl-css */
