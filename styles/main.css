@@ -353,8 +353,8 @@ div#identity-values-grid.grid-a {
 
 /* learning plan blog */
 div#learning-plan-grid.grid-a {
-  grid-template-rows: repeat(11, 1fr);
-  height: 75rem;
+  grid-template-rows: repeat(26, 1fr);
+  height: 125rem;
 }
 
 /* neuroplasticity blog */
