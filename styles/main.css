@@ -366,3 +366,10 @@ div#learning-plan-grid.grid-a {
 .resource-links a {
   color: rgb(252, 249, 249);
 }
+
+/* foundations reflections blog */
+
+div#foundations-reflections.grid-a {
+  grid-template-rows: repeat(13, 1fr);
+  height: 93.75rem;
+}
